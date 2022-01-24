@@ -1,0 +1,31 @@
+#!/bin/bash
+
+CONFIG_DIR=/usr/local/etc/notify
+CONFIG=$CONFIG_DIR/config.json
+INSTALL_PATH=/usr/local/bin/notify
+
+if [ "$EUID" -ne 0 ]; then
+    echo "Please run as root."
+    exit 1
+fi
+
+mkdir -p $CONFIG_DIR
+echo '{
+    "webhook_url": "",
+    "prefix": "<@your_user_id>"
+}' > $CONFIG
+cp notify $INSTALL_PATH
+echo -e "Installation complete. Please edit \e[32m$CONFIG\e[0m"
+if code $CONFIG 2> /dev/null; then
+    exit 0
+fi
+if vim $CONFIG 2> /dev/null; then
+    exit 0
+fi
+if gedit $CONFIG 2> /dev/null; then
+    exit 0
+fi
+if nano $CONFIG 2> /dev/null; then
+    exit 0
+fi
+echo -e "\e[31mError:\e[0m Failed to find text editor. Please manually edit the config."
