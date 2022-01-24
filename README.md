@@ -22,9 +22,9 @@ or
 ```
 
 # Future Updates
-[ ] Windows support
-[ ] Notification app
-[ ] Webhook generator
+- [ ] Windows support
+- [ ] Notification app
+- [ ] Webhook generator
 
 # Credits
 Made * by [Minco](https://discord.com/users/590826711147347973)
