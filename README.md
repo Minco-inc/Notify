@@ -6,7 +6,7 @@ loooooong-time-process-that-guttles-your-time && notify "The process is done!"
 
 # Installation
 ```bash
-wget -O - https://raw.githubusercontent.com/Minco-inc/Notify/blob/main/install-wget.sh | bash
+wget -O - https://raw.githubusercontent.com/Minco-inc/Notify/main/install-wget.sh | bash
 ```
 or
 ```bash
