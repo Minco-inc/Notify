@@ -1,0 +1,10 @@
+#!/buin/bash
+echo -e "\e[36mInstallation :\e[0m"
+echo -e "Simply, execute \e[32msudo ./ez-setup\e[0m"
+echo -e "\nIf not working... (You need to install curl)"
+echo -e "Execute \e[32msudo apt install libcurl3-openssl-dev\e[0m to install curl."
+echo -e "And then retry the first command."
+echo -e "\nTo install manually..."
+echo -e "And then,  \e[32mmake\e[0m"
+echo -e "And finally, \e[32msudo make install\e[0m"
+echo -e "To delete some useless files, \e[32mmake clean\e[0m"
