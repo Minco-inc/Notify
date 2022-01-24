@@ -3,7 +3,14 @@ Notify command for linux using Discord webhook!
 
 # Installation
 ```bash
-$ sudo ./ez-setup
+wget -O - https://raw.githubusercontent.com/Minco-inc/Notify/main/install-wget.sh | bash
+```
+or
+```bash
+cd /tmp
+git clone https://github.com/Minco-inc/Notify.git
+cd notify
+sudo ./ez-setup
 ```
 And follow instruction on console.
 
