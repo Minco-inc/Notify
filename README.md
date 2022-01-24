@@ -1,5 +1,5 @@
 # Notify
-Suppose you have executed a command that takes a long time. You can't just stare at the console where nothing is printed and wait still. Because your time is precious. Instead, try installing this program. I can send you a notification when the process is over! Now you can just execute it and head to bed to watch YouTube. Or you can do something more productive.
+Suppose you have executed a command that takes a long time. You can't just stare at the console where nothing is printed and wait still. Because your time is precious. Instead, try installing this program. It can send you a notification when the process is over! Now you can just execute it and head to bed to watch YouTube. Or you can do something more productive.
 ```bash
 loooooong-time-process-that-guttles-your-time && notify "The process is done!"
 ```
