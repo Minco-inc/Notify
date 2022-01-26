@@ -1,4 +1,4 @@
-#!/buin/bash
+#!/bin/bash
 echo -e "\e[36mInstallation :\e[0m"
 echo -e "Simply, execute \e[32msudo ./ez-setup\e[0m"
 echo -e "\nIf not working... (You need to install curl)"
